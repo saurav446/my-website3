@@ -1,0 +1,218 @@
+body{
+    margin: 0;
+    font-family: 'Poppins';
+}
+h2 {
+    font-size:40px;
+}
+h3 {
+    font-size:30px;
+}
+p{
+    color: #95a5a6;
+}
+.color{
+    color: #FFC51F;
+}
+
+
+.container{
+    width:80%;
+    margin: auto;
+    overflow: hidden;
+}
+.header{
+    background-image: url('images/header-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.t2{
+    float: left;
+    overflow: hidden;
+    width: 40%;
+    margin-top:120px;
+}
+.t{
+    float: left;
+    width: 40%;
+    margin-top:50px;
+    overflow: hidden;
+    margin-right: 20%;
+    margin-top:120px;
+}
+.header .t2 img {
+    height: 100%;
+    width: 100%;
+
+}
+.botton{
+    text-decoration:none;
+    background-color: #1abc9c;
+    padding:10px 20px;
+    border-radius: 5px;
+    color:#FFFFFF;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 1px solid  transparent;
+    overflow: hidden;
+    display: inline-block;
+}
+.botton:hover{
+    background: #FFFFFF;
+    color:#1abc9c;
+	border:1px solid #1abc9c;
+}
+
+
+/********about*****/
+
+.about{
+    background-image: url('images/biography-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.about .s2 img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.s{
+    float: left;
+    overflow: hidden;
+    width: 40%;
+    margin-top:120px;
+}
+
+.s2{
+    float: left;
+    width: 40%;
+    margin-top:50px;
+    overflow: hidden;
+    margin-right: 20%;
+    margin-top:120px;
+}
+.about .s2 img {
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+/******** photo*******/
+.photo {
+   overflow: hidden;
+   display: inline;
+}
+.photo h2{
+   text-align: center;
+}
+.col-1-3{
+    width: 30%;
+    margin-right:2%;
+    float: left;
+    overflow: hidden;
+}
+.photo .col-1-3 img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.c2{
+    float: left;
+    width: 40%;
+    margin-top:50px;
+    overflow: hidden;
+    margin-right: 20%;
+}
+
+/****** footer *****/
+
+.footer{
+    text-align: center;
+}
+
+.saurav{
+    padding: 40px;
+}
+.saurav{
+    display: block;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.saurav2 h3{
+    font-size: 15px;
+}
+.saurav2  {
+    height: 150px;
+    width: 50%;
+    background: #2ecc71;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: auto;
+    color:#FFFFFF;
+    display: inline-block;
+}
+
+
+
+.saurav2 h2{
+    font-size: 27px;
+}
+
+.footer2{
+    text-align: center;
+    margin-top: 110px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 768px) {
+
+	.t{
+        width: 100%;
+        text-align: center;
+    }
+    .t2{
+        width: 100%;
+        text-align: center;
+    }
+    .s{
+        width: 100%;
+        text-align: center;
+    }
+    .s2{
+        width: 100%;
+        text-align: center;
+    }
+    .col-1-3{
+        width:100%;
+        margin-bottom: 30px;
+    }
+    .saurav2{
+        width:100%;
+    }
+}
+
+@media all and (max-width: 390px) {
+    .saurav2 h2{
+        font-size: 23px;
+    }
+}
